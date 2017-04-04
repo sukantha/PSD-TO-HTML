@@ -1,0 +1,256 @@
+@font-face {
+ font-family: pacifico;
+ src: url("Pacifico.eot") 
+}
+@font-face {
+ font-family:pacifico;
+ src: url("Pacifico.ttf")
+}
+@font-face {
+ font-family:bebas;
+ src: url("bebas.eot") 
+}
+@font-face {
+ font-family:bebas;
+ src: url("bebas.TTF") 
+}
+
+
+.wrapper {
+ 		margin: 0 auto;
+ 		width: 960px;
+}
+
+.header {
+		width:100%;
+		box-sizing: border-box;
+		overflow: hidden;
+}
+
+.logo { 
+		width: 30%;
+		box-sizing: border-box;
+		float: left;
+}
+.logo h1{
+		margin: 10px 0 ;
+		font-family:pacifico;
+}
+
+.menu {
+		width: 70%;
+		box-sizing: border-box;
+		float: right;
+}
+.menu ul {
+		margin:0;
+		padding:30px;
+			
+}
+
+.menu ul li {
+		margin: 0 12px;
+		padding:0;
+		font-family:bebas;
+		font-size: 18px;
+		display: inline-block;
+		color: grey;
+   		
+
+}
+.menu ul li span{
+		font-family: bebas;
+		text-transform: uppercase;
+		display: block;
+		color:black;
+	
+}
+
+
+
+.slider {
+		position: relative;
+}
+
+.slider_img {
+		width: 100%;
+}
+
+.slider_text {
+		margin:0;
+		padding:0;
+		width:21%;
+		background:#444444;
+		font-family:bebas;
+		position: absolute;
+		bottom:5px ;
+		left:0;
+}
+.slider_text h4{
+		margin:10px;
+		padding: 0; 
+		color:#6f6f6f;
+	
+	
+}
+.slider_text span{
+		display: block;
+		font-size: 25px;
+		text-transform: uppercase;
+		color: white;
+
+}
+
+.para {
+		margin: 13px 0 0 0;
+		padding: 0;
+		width: 100%;
+		box-sizing: border-box;
+		background:url('parabg.png');
+	}
+.para h3{
+		margin: 0;
+		padding: 0;
+		font-family:bebas;
+		color: #42464a;
+	
+	
+}
+.para p{
+		margin:15px 0 0 0;
+	
+}
+
+
+/*.slider end*/
+
+
+.projects{
+		margin:0;
+		padding:0;
+		width: 100%;
+		box-sizing: border-box;
+		overflow: hidden;
+}
+.project{
+		float: left;
+		margin: 0;
+		padding: 0;
+		width:33.3%;
+		vertical-align: top;
+}
+.logo{
+		margin: 20px 15px 0 0 ;
+		padding:0;
+		width:15%;
+	
+
+}
+.pro_heading{
+   		 font-size: 11px;
+		 text-transform: uppercase;
+		 font-family: bebas;
+		  font-weight: normal;
+		 color: #6f6f6f;
+		 
+
+}
+.pro_text{
+		margin: 0;
+		padding-right:25px;
+		text-align: justify;
+}
+.font i {
+		font-size:20px;
+		margin: 0;
+		padding: 0;
+	 
+ }
+
+/*projects end*/
+
+
+.works {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		overflow: hidden;
+
+}
+ .works_heading { 
+ 	    width: 100%;
+    	display: inline-block;
+ }
+ .works_heading h1{
+ 		width: 100%;
+   		 text-align: center;
+    	margin:30px 0;
+    	background:url('capture.png');
+ }
+
+.work {
+		margin:20px 0 0 0;
+		padding: 0;
+		width:25%;
+		float: left;
+
+}
+.work h1{
+		font-family: bebas;
+		text-transform: uppercase;
+		font-weight: normal;
+		color: #6f6f6f;
+		font-size: 18px;
+
+}
+.work p{
+		margin: 0;
+		padding:10px;
+		text-align: justify;
+
+}
+
+.fa {
+		margin: 0 0 0 10px;
+		font-size:10px;
+}
+
+.footer{
+		margin: 0;
+		padding: 0;
+		width:100%;
+		overflow: hidden;
+		background: url('footerbg.png');
+	
+}
+.footer img{
+		vertical-align: top;
+}
+
+.copyright{
+		margin:0;
+		padding:0;
+		width:53%;
+		/*border:1px solid green;*/
+        box-sizing: border-box;
+        text-align:center;
+        float: left;
+}
+.by{
+		margin: 0;
+		padding: 0;
+		width:39%;
+		/*border:1px solid black;*/
+		box-sizing: border-box;
+		text-align: center;
+	 	float: right;
+	
+}
+
+.by p{
+	    font-family:sans-serif;
+}
+.by span{
+	    font-family:pacifico;
+	    text-transform:capitalize;
+}
