@@ -20,6 +20,10 @@
 		font-size:15px;
 }
 
+a{
+	text-decoration: none;
+}
+
 .wrapper {
  		margin: 0 auto;
  		width: 960px;
